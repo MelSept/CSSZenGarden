@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Julius Sans One";
+    src: url(/Fonts/JuliusSansOne-Regular.ttf) format("truetype");
+}
+
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    }
+
+body { 
+	font: georgia, sans-serif;
+    font-size: 85%;
+	line-height: 2;
+	color: grey; 
+	}
+
+header {
+        height: 230px;
+        padding: 20px 0 70px 0;
+        background: #2d6360;
+        background-attachment: fixed;
+        text-align: center;
+        display: block;
+    }  
+    
+    .img-header{
+        position: relative;
+        width: 100%;
+        height: 210px;
+        padding: 20px 70px;
+        background: url(/IMG/contours.png), url(/IMG/noise.png), url(/IMG/gridlines.png), url(img/huntington.jpg) no-repeat;
+        background-size: cover;
+                    
+    }    
+
+    h1 {
+        border-bottom: none;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 3.2em;
+        color: #fff;
+        text-transform: uppercase;
+       
+    }
+
+    h1::before {
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        content: "";
+        width: 80px;
+        height: 80px;
+        margin: -20px 20px 0 0;
+        background: url(/IMG/enso.svg);
+        background-size: 100%;
+        opacity: 0.8;
+    }
+
+    h2 {
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        border-top: none;
+        color: rgba(255, 255, 255, 0.52);
+        font-size: 1.6em;
+        font-style: italic;
+    }    
+
+    h1, h2 {    
+         padding: 0;
+         font-weight: normal;
+    }
+
+    p { 
+        margin-top: 0; 
+        text-align: justify;
+    }
