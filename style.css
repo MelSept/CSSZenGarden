@@ -146,4 +146,24 @@ header {
        
      }
 
+     .v2 a {
+         text-decoration: none;
+         color: rgb(221, 214, 214);
+         font-style: normal;
+         cursor: pointer;
+         
+     }
+     
+     .v2 a:hover{
+        text-decoration: underline;
+     }
+
+     footer {
+        clear: both;
+        padding: 3em 10%;
+        color: #fff;
+        background: #134347;
+        text-align: center;
+     }
+
 
