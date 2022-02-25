@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Julius Sans One";
     src: url(/Fonts/JuliusSansOne-Regular.ttf) format("truetype");
+   
 }
 
 *{
@@ -13,7 +14,7 @@ body {
 	font: georgia, sans-serif;
     font-size: 85%;
 	line-height: 2;
-	color: grey; 
+	color: #325050;
 	}
 
 header {
@@ -31,7 +32,7 @@ header {
         height: 210px;
         padding: 20px 70px;
         background: url(/IMG/contours.png), url(/IMG/noise.png), url(/IMG/gridlines.png), url(img/huntington.jpg) no-repeat;
-        background-size: cover;
+        background-size: auto, cover;
                     
     }    
 
@@ -72,7 +73,77 @@ header {
          font-weight: normal;
     }
 
-    p { 
-        margin-top: 0; 
-        text-align: justify;
+    .intro {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 38%;
+        margin: 0;
     }
+
+    .dmos a, .dmos a:visited {
+        padding: 10px;        
+        color: #809b7e;
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .dmos a:hover {
+        color: #ffffff;
+        background-color: #0d8ba1;   
+        transition: 0.25s ;
+        text-decoration: none;
+        
+    }
+
+     h3 {
+        margin: 1em 0 0 0;
+        color: #2e484c;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.8em;
+        font-weight: normal;
+        text-transform: uppercase;
+     }
+
+     .verde {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        padding-left: 10%;
+        padding-right: 38%;
+        margin: 0;
+        background-attachment: scroll, scroll, fixed;
+        background-color: rgba(138,188,159,0.5);
+        background-image: url(/IMG/contours.png), url(/IMG/gridlines.png), url(/IMG/bamboo.png);
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+     }
+
+     .require {         
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 38%;
+        padding-bottom: 50px;
+        margin: 0;
+        
+     }
+
+     .v2 {
+
+        padding: 2em 12%;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.4);
+        background: #3e5d67;
+        background-image: url(/IMG/contours.png), url(/IMG/gridlines.png), url(/IMG/noise.png), url(/IMG/koi.jpg);
+        background-position: 0 0, -5px -25px, 0 0, 0 50%;
+        background-repeat: repeat, repeat, repeat, no-repeat;
+        background-size: auto, auto, auto, cover;
+        font-size: 2em;
+        font-style: italic;
+        text-align: center;
+       
+     }
+
+
