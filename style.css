@@ -215,6 +215,14 @@ header {
         overflow: hidden;
       }
 
+      .sidebar li {
+        float: none;
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+        
+      }
+
       .design {
         position: absolute;
         top: 360px;
@@ -225,7 +233,7 @@ header {
         overflow: visible;
         background: transparent;
       }
-     
+        
       
       .design ul, .extras ul  {
         margin: 0;
@@ -251,7 +259,7 @@ header {
         font-family: 'Julius Sans One', sans-serif;
         font-size: 1.2em;
         font-style: normal;
-        text-transform: uppercase;
+        
       }
 
       /* barrita de navegacion */
@@ -338,17 +346,30 @@ header {
         
      /* extra */
 
-      .extras li {
-        border-top: solid 1px #a0b9ad;
-        font-style: normal;
-      }
       .extras li:last-child {
         float: none;
         width: auto;
         border-bottom: solid 1px #a0b9ad;
       }
 
-      
+      .extras {
+        position: absolute;
+        top: 1310px;
+        right: 0;
+        width: 34%;
+        background: transparent;
+      }
+      .extras h3 {
+        display: none;
+      }
+      .extras ul {
+        width: 55.9%;
+        margin: 0 29.4% 0 14.7%;
+      }
+      .extras li {
+        padding: 1.5em 0 1.25em 0;
+        margin: 0;
+      }
       
 
 
