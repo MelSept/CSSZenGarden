@@ -62,7 +62,7 @@ header {
 
     h2 {
         display: block;
-        padding: 285px;
+        padding: 300px;
         padding-top: 5px;
         padding-bottom: 30px;
         border-top: none;
@@ -191,7 +191,8 @@ header {
      /* Aside */
 
      .sidebar {
-        background: #edf4f0;
+        background: #edf4f0;             
+                
       }
 
       .sidebar h3 {
@@ -213,6 +214,17 @@ header {
         list-style: none;
         overflow: hidden;
       }
+
+      .design {
+        position: absolute;
+        top: 360px;
+        right: 0;
+        width: 33.3%;
+        padding: 0 0 20px 0;
+        margin: 0;
+        overflow: visible;
+        background: transparent;
+      }
      
       
       .design ul, .extras ul  {
@@ -220,12 +232,12 @@ header {
       }
 
       .design li, .extras li {
-        float: left;
-        width: 50%;
+        
+        width: 100%;
         padding: 1.5em 10%;
         border-top: solid 1px #d9e3dc;
         color: #c0cac3;
-        font-style: italic;
+        
       }
 
       .design li:nth-child(2n+1), .extras li:nth-child(2n+1){
@@ -248,7 +260,7 @@ header {
         position: absolute;
         top: 120px;
         right: 0;
-        width: 28%;
+        width: 26%;
         height: 70px;
         margin-right: 10px;
         background: rgba(255,255,255,0.2);
@@ -274,7 +286,7 @@ header {
           .navegador li.viewall {
             top: 0;
             left: 0;
-            padding: 0 35px;
+            padding: 0 45px;
             line-height: 50px;
           }
         
@@ -324,7 +336,20 @@ header {
           }    
 
         
+     /* extra */
 
+      .extras li {
+        border-top: solid 1px #a0b9ad;
+        font-style: normal;
+      }
+      .extras li:last-child {
+        float: none;
+        width: auto;
+        border-bottom: solid 1px #a0b9ad;
+      }
+
+      
+      
 
 
      /* footer */
@@ -336,5 +361,7 @@ header {
         background: #134347;
         text-align: center;
      }
+
+     
 
 
