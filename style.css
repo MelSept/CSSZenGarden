@@ -269,7 +269,7 @@ header {
         font-family: 'Libre Baskerville', serif;
       }
 
-      
+            
 
       /* barrita de navegacion */
 
@@ -390,6 +390,34 @@ header {
         text-align: center;
      }
 
+     footer .icon {        
+               
+        margin-left: 20px;
+        font-size: 70px;
+        line-height: 60px;
+        padding-left: 20px;
+     }
+
+     footer .icon a{
+         margin-left: 80px;
+         color: #b6bebe;
+         text-decoration: none;
+         align-items: center;
+     }
+
+     footer .icon a:hover{
+         color: #edf5f5;
+     }
+
+
+     @media only screen and (min-width: 1132px) {
+        body {
+          background: #ffffff;
+          background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
+          background: -o-linear-gradient(left,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
+          background: linear-gradient(to right,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
+        }
+    }
      
 
 
