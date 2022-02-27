@@ -223,7 +223,7 @@ header {
         
       }
 
-      .design {
+       .design {
         position: absolute;
         top: 360px;
         right: 0;
@@ -242,7 +242,7 @@ header {
       .design li, .extras li {
         
         width: 100%;
-        padding: 1.5em 10%;
+        padding: 0.5em 10%;
         border-top: solid 1px #d9e3dc;
         color: #c0cac3;
         
@@ -261,6 +261,15 @@ header {
         font-style: normal;
         
       }
+
+      .design .designer-name {
+        color: #616857;
+        font-size: 0.8em;
+        font-style: normal;
+        font-family: 'Libre Baskerville', serif;
+      }
+
+      
 
       /* barrita de navegacion */
 
@@ -346,26 +355,24 @@ header {
         
      /* extra */
 
-      .extras li:last-child {
-        float: none;
-        width: auto;
-        border-bottom: solid 1px #a0b9ad;
-      }
-
+      
       .extras {
         position: absolute;
-        top: 1310px;
+        top: 1500px;
         right: 0;
-        width: 34%;
+        width: 35%;
         background: transparent;
       }
+
       .extras h3 {
         display: none;
       }
+
       .extras ul {
         width: 55.9%;
         margin: 0 29.4% 0 14.7%;
       }
+
       .extras li {
         padding: 1.5em 0 1.25em 0;
         margin: 0;
