@@ -11,6 +11,8 @@ body {
 	color: #325050;
 	}
 
+    /* Banner */
+
 header {
         height: 230px;
         padding: 20px 0 70px 0;
@@ -69,8 +71,12 @@ header {
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
     }    
-
     
+    p {
+        margin: 0.75em 0;
+    }
+
+    /* Introduccion */
 
     .intro {
         padding-top: 130px;
@@ -106,6 +112,8 @@ header {
         text-transform: uppercase;
      }
 
+     /* Fondo verde */
+
      .verde {
         width: 100%;
         padding-top: 25px;
@@ -130,6 +138,8 @@ header {
          text-decoration: underline;
 
      }
+
+     /* final blanca */
 
      .require {         
         width: 100%;
@@ -177,6 +187,147 @@ header {
      .v2 a:hover{
         text-decoration: underline;
      }
+
+     /* Aside */
+
+     .sidebar {
+        background: #edf4f0;
+      }
+
+      .sidebar h3 {
+        display: none;
+      }
+
+      .sidebar a {
+        color: #607476;
+        text-decoration: none;
+      }
+
+      .sidebar a:hover {
+          color: #49968e;
+      }
+
+      .sidebar ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+      }
+     
+      
+      .design ul, .extras ul  {
+        margin: 0;
+      }
+
+      .design li, .extras li {
+        float: left;
+        width: 50%;
+        padding: 1.5em 10%;
+        border-top: solid 1px #d9e3dc;
+        color: #c0cac3;
+        font-style: italic;
+      }
+
+      .design li:nth-child(2n+1), .extras li:nth-child(2n+1){
+        clear: left;
+      }
+
+      .design, .extras a, li.viewall a {
+          
+        display: block;
+        margin-bottom: 0.25em;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.2em;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+
+      /* barrita de navegacion */
+
+      .navegador {
+        position: absolute;
+        top: 120px;
+        right: 0;
+        width: 28%;
+        height: 70px;
+        margin-right: 10px;
+        background: rgba(255,255,255,0.2);
+        }
+
+        .navegador h3 {
+            display: none;
+          }
+        
+          .navegador ul {
+            margin: 0;
+          }
+        
+          .navegador li {
+            position: absolute;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            border: none;
+            list-style: none;
+          }
+        
+          .navegador li.viewall {
+            top: 0;
+            left: 0;
+            padding: 0 35px;
+            line-height: 50px;
+          }
+        
+                 
+          .next {
+            left: auto;
+            right: 0;
+          }
+        
+          .navegador a, .navegador a:visited {
+            color: rgba(255, 255, 255, 0.65);
+          }
+        
+          .navegador a:hover {
+            color: #fff;
+          }
+        
+          .navegador .previous a, .navegador .next a {
+            display: block;
+            overflow: hidden;
+            width: 70px;
+            height: 70px;
+            text-indent: 100%;
+            text-decoration: none;
+            white-space: nowrap;
+          }
+        
+          .navegador .viewall a {
+            z-index: 2;
+            width: 100%;
+            min-height: 60px;
+            padding: 12px 0 0 0;
+            text-align: center;
+          }
+        
+          .navegador a::before {
+            position: absolute;
+            left: 0;
+            width: 50px;
+            text-align: center;
+            text-indent: 0;
+            font-size: 38px;
+          }
+        
+          .navegador .next a::before {
+            content: ">";
+          }    
+
+        
+
+
+
+     /* footer */
 
      footer {
         clear: both;
