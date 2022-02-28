@@ -409,6 +409,8 @@ header {
          color: #edf5f5;
      }
 
+     /* Media querys */
+
 
      @media only screen and (min-width: 1132px) {
         body {
@@ -418,6 +420,58 @@ header {
           background: linear-gradient(to right,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
         }
     }
+
+    
+  @media only screen and (max-width: 500px){
+
+    header {
+      height: 250px;
+      padding-top: 0;
+    }
+
+    h1 {
+      
+      text-align: center;
+      padding-top: 20px;
+      font-size: 1.6em;
+   }
+
+    h1::before {
+      display: block;
+      left: 30%;
+      top: auto;
+      width: 40%;
+    }
+
+    .design {      
+      position:relative;
+      top: 0;
+      font-size: 0.9em;
+      width: 50%;        
+      
+    }
+
+    
+    .design li:nth-child(2n+1) {
+      float: left;      
+      
+    }
+
+    
+
+    
+
+    
+
+  
+    footer a {
+      margin: 0 0.5em;
+    }
+  
+  }
+  
+
+
      
 
 
