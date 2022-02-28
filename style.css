@@ -515,18 +515,21 @@ header {
 
    .extras {
      position: relative;
-     top:0;
-     right: 30px;
+     top:0;     
      width: 100%; 
      border-top: solid 1px #a0b9ad;
-     padding: 10px;  
      text-transform: uppercase;   
+     background-color: rgba(138,188,159,0.5);
+     background-image: url(./img/contours.png), url(./img/gridlines.png), url(./img/bamboo.png);
+     background-repeat: repeat, repeat, no-repeat;
+     background-size: auto, auto, cover;
    }
 
    .extras a {
      font-size: 0.9em;
+     margin: 0;
+     
      }
-
       
    footer {
      padding: 10px;
