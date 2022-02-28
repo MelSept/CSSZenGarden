@@ -422,7 +422,7 @@ header {
     }
 
     
-  @media only screen and (max-width: 500px){
+    @media only screen and (max-width: 600px) {
 
     header {
       height: 250px;
@@ -443,10 +443,10 @@ header {
 
     h1::before {
       display: block;
-      left: 37%;
+      left: 40%;
       top: auto;
-      width: 20%;
-      height: 65px;
+      width: 15%;
+      height: 70px;
     }
 
     h2 {
@@ -547,6 +547,8 @@ header {
       margin: auto;
     }
   }
+
+ 
   
 
 
