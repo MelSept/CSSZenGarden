@@ -516,7 +516,7 @@ header {
       width: 100%;
       height: 65px;
       background: rgba(255,255,255,0.2);
-      text-align: center;
+      
    }
     
    .navegador li.viewall {
@@ -545,7 +545,8 @@ header {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
-
+     width: 100%;
+     margin: 0;
    } 
 
    footer {
@@ -657,7 +658,7 @@ header {
       right: auto;
       width: 100%;
       background: rgba(255,255,255,0.2);
-      text-align: center;
+      
 }
    .navegador .viewall a{
      padding:0;
@@ -691,6 +692,8 @@ header {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      width: 100%;
+      margin: 0;
  
     } 
       
