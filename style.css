@@ -55,7 +55,7 @@ header {
         width: 125px;
         height: 125px;
         margin: 10px 30px 0 0;
-        background: url(./img/enso.svg);
+        background: url(./img/enso.svg) no-repeat;
         background-size: 100%;
         opacity: 0.9;
     }
@@ -427,6 +427,11 @@ header {
     header {
       height: 250px;
       padding-top: 0;
+      border-top: solid 10px rgba(19, 67, 71, 0.9);
+    }
+
+    .img-header {
+      height: 240px;
     }
 
     h1 {
@@ -438,16 +443,45 @@ header {
 
     h1::before {
       display: block;
-      left: 30%;
+      left: 37%;
       top: auto;
-      width: 40%;
+      width: 20%;
+      height: 65px;
     }
 
+    h2 {
+      padding: 0;
+      text-align: center;
+      font-size: 1.3em;
+    }
+
+    h3 {
+      margin-left: 16px;
+      font-size: 1.2em;
+    }
+
+    .intro, .verde, .require {
+      padding-top: 10px;
+      padding-right: 10%;
+      padding-bottom: 10px;
+    }
+
+    p {
+      padding: 1em 6%;
+      font-size: 0.8em;
+    }
+
+    .v2 {
+      padding:0;
+      font-size: 1.8em;
+    }
+
+        
     .design {      
       position:relative;
       top: 0;
       font-size: 0.9em;
-      width: 50%;        
+      width: 50%;  
       
     }
 
@@ -457,17 +491,43 @@ header {
       
     }
 
-    
+    .design li.viewall {
+       top: 0;
+       left: 0; 
+       width: 100%; 
+       padding: 0 71px; 
+       line-height: 50px; 
+  }
 
+    .navegador {
+      position: absolute;
+      top: 185px;
+      right: auto;
+      width: 100%;
+      height: 65px;
+      background: rgba(255,255,255,0.2);
+      text-align: center;
+   }
     
+   .navegador li.viewall {
+      padding: 0 80px;
+   }
 
-    
-
-  
-    footer a {
-      margin: 0 0.5em;
+   footer {
+     padding: 10px;
     }
   
+   footer .icon {
+     font-size: 35px;
+     line-height: 0;
+     padding-left: 0;   
+     margin-left: 0; 
+      
+    }  
+
+    footer .icon a{
+      margin: auto;
+    }
   }
   
 
