@@ -518,9 +518,10 @@ header {
       background: rgba(255,255,255,0.2);
       
    }
-    
+  
    .navegador li.viewall {
-      padding: 0 80px;
+     width: 100%;
+     padding: 0 80px;
    }
 
    .extras {
@@ -662,12 +663,12 @@ header {
 }
    .navegador .viewall a{
      padding:0;
-     margin-left: 50px;
      text-align: center;
    }
     
    .navegador li.viewall {
-      padding: 12px 0 0 150px;
+     width: 85%;
+     padding: 12px 0 0 150px;
    }
 
    .extras {
