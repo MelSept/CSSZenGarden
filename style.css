@@ -480,8 +480,8 @@ header {
     .design {      
       position:relative;
       top: 0;
-      font-size: 0.9em;
-      width: 50%;  
+      font-size: 1em;
+      width: 100%;  
       
     }
 
@@ -489,6 +489,16 @@ header {
     .design li:nth-child(2n+1) {
       float: left;      
       
+    }
+
+    .design li, .extras li{
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+      line-height: 1.2em;
     }
 
     .design li.viewall {
@@ -530,7 +540,14 @@ header {
      margin: 0;
      
      }
-      
+
+   .extras ul{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+   } 
+
    footer {
      padding: 10px;
     }
@@ -606,7 +623,7 @@ header {
       position:relative;
       top: 0;
       font-size: 0.9em;
-      width: 50%;  
+      width: 100%;  
       
     }
 
@@ -616,6 +633,16 @@ header {
       
     }
 
+    .design li, .extras li{
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+      line-height: 1.2em;
+    }
+
     .design li.viewall {
        top: 0;
        left: 0; 
@@ -623,7 +650,7 @@ header {
        padding: 0 71px; 
        line-height: 50px; 
   }
-
+ 
     .navegador {
       position: absolute;
       top: 213px;
@@ -659,13 +686,20 @@ header {
      margin: 0;
      
      }
+
+   .extras ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+ 
+    } 
       
    footer {
      padding: 10px;
     }
   
    footer .icon {
-     font-size: 35px;
+     font-size: 50px;
      line-height: 0;
      padding-left: 0;   
      margin-left: 0; 
