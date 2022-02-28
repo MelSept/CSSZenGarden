@@ -212,7 +212,7 @@ header {
         padding: 0;
         margin: 0;
         list-style: none;
-        overflow: hidden;
+        
       }
 
       .sidebar li {
@@ -513,6 +513,21 @@ header {
       padding: 0 80px;
    }
 
+   .extras {
+     position: relative;
+     top:0;
+     right: 30px;
+     width: 100%; 
+     border-top: solid 1px #a0b9ad;
+     padding: 10px;  
+     text-transform: uppercase;   
+   }
+
+   .extras a {
+     font-size: 0.9em;
+     }
+
+      
    footer {
      padding: 10px;
     }
