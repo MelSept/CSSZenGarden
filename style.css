@@ -412,7 +412,7 @@ header {
      /* Media querys */
 
 
-     @media only screen and (min-width: 1132px) {
+     @media only screen and (min-width: 1150px) {
         body {
           background: #ffffff;
           background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
@@ -546,6 +546,137 @@ header {
     footer .icon a{
       margin: auto;
     }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 1150px) {
+
+    header {
+      height: 250px;
+      padding-top: 0;
+      border-top: solid 10px rgba(19, 67, 71, 0.9);
+    }
+
+    .img-header {
+      height: 270px;
+    }
+
+    h1 {      
+      
+      font-size: 2em;
+      padding: 0px;
+      text-align: center;
+   }
+
+   h1::before {
+
+      margin:10px;
+      }
+
+    
+    h2 {
+      padding: 0;
+      text-align: center;
+      font-size: 1.3em;
+      margin-left: 90px;
+    }
+
+    h3 {
+      margin-left: 30px;
+      font-size: 1.2em;
+    }
+
+    .intro, .verde, .require {
+      padding-top: 40px;
+      padding-right: 10%;
+      padding-bottom: 10px;
+    }
+
+    p {
+      padding: 1em 6%;
+      font-size: 1em;
+    }
+
+    .v2 {
+      padding:0;
+      font-size: 1.8em;
+    }
+
+        
+    .design {      
+      position:relative;
+      top: 0;
+      font-size: 0.9em;
+      width: 50%;  
+      
+    }
+
+    
+    .design li:nth-child(2n+1) {
+      float: left;      
+      
+    }
+
+    .design li.viewall {
+       top: 0;
+       left: 0; 
+       width: 100%; 
+       padding: 0 71px; 
+       line-height: 50px; 
+  }
+
+    .navegador {
+      position: absolute;
+      top: 213px;
+      right: auto;
+      width: 100%;
+      background: rgba(255,255,255,0.2);
+      text-align: center;
+}
+   .navegador .viewall a{
+     padding:0;
+     margin-left: 50px;
+     text-align: center;
+   }
+    
+   .navegador li.viewall {
+      padding: 12px 0 0 150px;
+   }
+
+   .extras {
+     position: relative;
+     top:0;     
+     width: 100%; 
+     border-top: solid 1px #a0b9ad;
+     text-transform: uppercase;   
+     background-color: rgba(138,188,159,0.5);
+     background-image: url(./img/contours.png), url(./img/gridlines.png), url(./img/bamboo.png);
+     background-repeat: repeat, repeat, no-repeat;
+     background-size: auto, auto, cover;
+   }
+
+   .extras a {
+     font-size: 0.9em;
+     margin: 0;
+     
+     }
+      
+   footer {
+     padding: 10px;
+    }
+  
+   footer .icon {
+     font-size: 35px;
+     line-height: 0;
+     padding-left: 0;   
+     margin-left: 0; 
+      
+    }  
+
+    footer .icon a{
+      margin: auto;
+    }
+
+
   }
 
  
